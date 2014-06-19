@@ -8,6 +8,8 @@ inoremap jk <ESC>
 let mapleader=","
 set encoding=utf-8
 set spell spelllang=en_us
+vnoremap . :norm.<CR>
+
 
 execute pathogen#infect()
 
