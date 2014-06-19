@@ -7,6 +7,7 @@ filetype plugin indent on      " use the file type plugins
 inoremap jk <ESC>
 let mapleader=","
 set encoding=utf-8
+set spell spelllang=en_us
 
 execute pathogen#infect()
 
