@@ -35,9 +35,6 @@ set shiftwidth=4
 set softtabstop=4
 set expandtab
 
-
-execute pathogen#infect()
-
 " When editing a file, always jump to the last cursor position
 autocmd BufReadPost *
 \ if ! exists("g:leave_my_cursor_position_alone") |
